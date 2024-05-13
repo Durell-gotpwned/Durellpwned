@@ -496,7 +496,7 @@ button:hover {
   overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     figure {
        display: block;
     }
@@ -506,14 +506,12 @@ button:hover {
      
      margin-left: -110%;
      margin-bottom: 10%;
-     padding-right: 320px;
+     max-width: 320px;
    }
    .Home-image {
      height: 250px;
     
-     margin-right: 100%;
-     margin-bottom: 10%;
-     max-width: 250px;
+     max-width: 200px;
    }
    .Hi-there {
      color: white;
