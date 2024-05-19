@@ -250,7 +250,10 @@ a {
   
   position: fixed;
 }
-
+.Home-boxed {
+  justify-content: center;
+  margin-right: 20%;
+}
 .Hi-there {
   color: white;
   padding-left: 380px;
@@ -290,21 +293,20 @@ a {
   #logo {
     margin: 0 -5px -15px -10px;
   }
+  .Grided {
+    display: flexbox;
+  }
   .Home-image {
   background-size: cover;
-  height: 200px;
-  
-  margin-left: 45%;
+  height: 300px;
+  max-width: 80%;
+  margin-left: 10%;
   margin-bottom: 10%;
-  max-width: 350px;
 }
 #Beacon_Ambassador {
-  background-size: cover;
-  height: 250px;
-  
-  margin-left: 5%;
-  margin-bottom: 10%;
-  width: 90%;
+  height: 400px;
+  max-width: 85%;
+  margin-left: 15%;
 }
   .internship-project {
   background-size: cover;
@@ -357,10 +359,7 @@ a {
   border: 2px black solid;
   font-size: 12px;
 }
-.Grided {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
+
 .Review-container {
   display: grid;
   grid-template-columns: 2fr;
@@ -374,18 +373,19 @@ a {
 
   }
   .Hi-there2 {
-    color: white;
-    padding-right: 100px;
+    color: white;   
     margin-top: 5px;
     margin-bottom: 50px;
-    margin-right: -20%;
-    margin-left: 5%;
-    font-size: 14px;
+    margin-left: 20%;
+    font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
+
+    min-width: 70%;
   }
   .Home-boxed {
-    margin-right: 100px;
+    justify-content: center;
+    margin-left: -10%;
   }
   /* Blogs page background */
   .Centered-Blogs {
@@ -495,104 +495,6 @@ button:hover {
   font-size: 0.9em;
   overflow: hidden;
 }
-
-@media (max-width: 300px) {
-    figure {
-       display: block;
-    }
-    #Beacon_Ambassador {
-     background-size: cover;
-     height: 250px;
-     
-     margin-left: -110%;
-     margin-bottom: 10%;
-     max-width: 320px;
-   }
-   .Home-image {
-     height: 250px;
-    
-     max-width: 200px;
-   }
-   .Hi-there {
-     color: white;
-     padding-left: 160px;
-     margin-bottom: 10%;
-     font-size: 13px;
-     font-family: 'Courier New', Courier, monospace;
-     font-weight: 700;
-   }
-   .Hi-there2 {
-     color: white;
-     padding-right: 500px;
-     margin-top: 0;
-     margin-left: 5%;
-     font-size: 12px;
-     font-family: 'Courier New', Courier, monospace;
-     font-weight: 700;
-   }
-   h1 {
-    background: linear-gradient(90deg, navy 29%, rgba(49,9,121,1) 100%, blue 100%);
-    text-align: center;
-    margin: auto;
-    font-size: 23px;
-    width: 50%;
-    border: 3px solid black;
-    padding: 50px 20px 25px;
-    color: white;
-  }
-  
-  h2 {
-    background: navy;
-    
-    text-align: center;
-    margin: auto;
-    font-size: 16px;
-    margin-top: 50px;
-    border: 3px solid black;
-    padding: 10px 30px;
-    Color: white;
-    max-width: 40%;
-  }
-   .Post {
-    margin-right: 10%; 
-
-    max-width:60%;
-    border: 2px black solid;
-    font-size: 12px;
-  }
-   .round {
-    width: 100px;
-    height: 100px;
-    margin-top: 25px;
-    margin-left: 40%;
-    margin-bottom: 50px;
-  
-    
-    border-radius: 50%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .skillbox {
-    padding: 20px 30%;
-    margin-bottom: 20px;
-  }
-  
-  .Skillset {
-    flex-wrap: flex;
-    height: 60px;
-    max-width: 60px;
-    padding-left: 10px;
-  }
-  .Resume-container {
-    display: flex;
-    grid-template-rows: repeat(2, 200px);
-  }
- }
-
 /* Form styles */
 form {
    margin: 2%;
