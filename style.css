@@ -234,7 +234,7 @@ h2 {
   margin: -15px -5px -16px -75px;
 }
 
-@media (min-width: 1200px) {
+@media (max-wdith: 1300px) {
   #logo {
     margin: 0 35px -16px -50px;
   }
@@ -245,16 +245,15 @@ h2 {
 
     max-width: 40%; /* Set a maximum width */
     padding: 30px 0px;
-    margin: 0 auto; /* Center the div horizontally */
+
     margin-bottom: 30px;
-    margin-left: 50%;
     justify-content: center;
   }
+  #academic-work {
+    margin-left: 60%;
+    max-width: 70%;
+  }
 }
-  color: white;
-  text-decoration: none;
-}
-
 
 .correct {
   background: #fff7;
